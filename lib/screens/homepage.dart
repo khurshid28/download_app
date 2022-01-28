@@ -17,20 +17,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  @override
-  void initState() {
-    super.initState();
-  //  __init();
-    
-  }
-//   __init()async{
-//     if (Platform.isAndroid) {
 
-//    Map<Permission, PermissionStatus> statuses = await [
-//     Permission.photos
-//    ].request();//Permission.manageExternalStorage
-// }
-//   }
   List<String> names=[
     "messi",
     "ronaldo",
@@ -98,35 +85,7 @@ class _HomePageState extends State<HomePage> {
                     ).show(context);
                   } catch (e) {
                   }
-                  // final Directory directory = await getApplicationDocumentsDirectory();
-                  //   final File file = File('${directory.path}/my_file.txt');
-                  //   await file.writeAsString("salom");
-                  //   String words=await file.readAsString();
-                  // print(words);
-                //  final _dir= await  getExternalStorageDirectory();
-                //  String newpath="";
-                //  List<String> folders=_dir!.path.split("/");
-                //  for ( var i = 1 ; i<folders.length  ; i++ ){
-                //      String folder=folders[i];
-                //      if(folder !="Android"){
-                //        newpath=newpath +"/"+folder;
-                //      }else{
-                //        break;
-                //      }
-                //  }
-                //  String foo = 'Hello world';
-                //  List<int> bytes = foo.codeUnits;
-                //  print(bytes);
-                //  newpath+="/Image_download_app";
-                //  ByteData imageData1 = await rootBundle.load("assets/"+names[index]+".jpg");
-                // //  String image_atString=imageData1.d
-                //   File file=await  File(newpath+"/"+names[index]+".jpg");
 
-                // //  file.openWrite(encoding:Encoding. );
-                //   // file.writeAsBytes(imageData1.buffer.asUint8List(),mode: FileMode.write).then((File myfile)async{
-                //   //     await GallerySaver.saveImage(myfile.path,albumName: "footballers");
-                //   //     print('Image is saved');
-                //   // }).catchError((e)=>print("aka xato:"+e.toString()));
                  
                 }, icon:const Icon(Icons.file_download_rounded),color: Colors.white,iconSize: 40,),
               ],
